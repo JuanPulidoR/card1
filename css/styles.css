@@ -1,0 +1,92 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  /*  transition: all 0.4s ease; */
+  font-family: "Manrope", sans-serif;
+  background-image: url(../images/bg.svg);
+  background-size: calc(40vh + 20vw);
+  background-position: center center;
+}
+
+/* TEXTO */
+.bold {
+  font-weight: 700;
+}
+.regular {
+  font-weight: 500;
+}
+.dark {
+  color: #48556a;
+}
+.semidark {
+  color: #6c7e96;
+}
+.light {
+  color: #9eafc2;
+}
+.txt-bg {
+  font-size: 1.3em;
+}
+.txt-md {
+  font-size: 0.8em;
+}
+p {
+  margin: 0.5em auto;
+}
+.container {
+  height: 100vh;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+}
+.col-big {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 50px rgba(190, 190, 190, 0.5);
+}
+.col1 {
+  background-image: url("../images/drawers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px 0 0 15px;
+  width: 50%;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 15px 15px 0;
+  width: 60%;
+  padding: 1rem 2.5rem;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-top: 1rem;
+}
+.name {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  text-align: center;
+  border-radius: 100%;
+}
+.img {
+  border-radius: 100%;
+  width: 3em;
+  margin-right: 1rem;
+}
